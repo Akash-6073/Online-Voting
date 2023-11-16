@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"); /*Young serif*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"); /*Roboto*/
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"); /* Ubuntu*/
+:root {
+    --font1: "Young Serif", serif;
+    --font2: "Roboto Condensed", sans-serif;
+    --font3: "Ubuntu", sans-serif;
+}
+.locActive{
+    color: orange !important;
+    display: flex;
+    text-decoration: underline ;
+    text-underline-offset: 5px;
+    align-items: center;
+    transition: all 0.3s linear !important;
+}
+.locActive:hover{
+    color: orange !important;
+
+    text-decoration: underline !important;
+
+}
+.navF{
+    margin-top: 65px;
+}
+.ag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

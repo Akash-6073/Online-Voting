@@ -1,0 +1,201 @@
+body{
+    /* padding-top: 65px; */
+}
+.bg{
+    height: 100vh;
+    padding-top:35px ;
+    /* background-color: red; */
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.navbar{
+    background-color:  white;
+    top: 0;
+    /* background-color: white; */
+    padding:8px 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login1{
+    text-decoration: none !important;
+    color: black;
+    margin: 0 15px;
+    padding: 8px 35px;
+    font-weight: bold;
+}
+.login1:hover{
+    text-decoration: none !important;
+    background-color: rgba(255, 166, 0, 0.764);
+    border-radius: 5px;
+    color: white !important;
+}
+.signup button{
+    background-color: black;
+    border-radius: 5px;
+    padding: 8px 35px;
+    color: white !important;
+    border: 0;
+    outline: 0;
+}
+.signup button:hover{
+    background-color: rgba(0, 0, 0, 0.795);
+}
+.navs{
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.navs:hover{
+    color: orange !important;
+    text-decoration: none !important;
+}
+.vertical{
+    border:1px solid black;
+    height: 5vh !important;
+    opacity: 0.2 !important;
+}
+.right{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+.ip{
+    border: 0 !important;
+    outline: 0;
+    background-color: #cfe4f7;
+    color: white;
+    border-radius: 5px !important;
+}
+.sign{
+    background-color: rgba(255, 166, 0, 0.764) !important;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    margin-top: 15px !important;
+}
+.sign:hover{
+    background-color: rgba(240, 167, 32, 0.897) !important;
+
+}
+.myvote{
+    font-size: 35px !important;
+    color: #edb910;
+    font-weight: bold;
+    font-family: var(--font1) !important;
+}
+.myvote img{
+    height: 35px;
+    border-radius: 50%;
+    background-color: red;
+}
+.singin{
+    display: flex !important;
+    flex-direction: column;
+}
+.su{
+    display: flex;
+    flex-direction: column;
+}
+ 
+.gsi{
+    margin-bottom: 45px !important;
+    color: white !important;
+    font-weight: bold;
+}
+.special{
+    color:black;
+    zoom: 1.3;
+    padding: 0 15px;
+}
+
+
+
+/* Online voting */
+.bg1{
+    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%) !important; */
+    height: 90vh;
+    background-color: white !important;
+
+}
+.bg1 nav{
+    background-color: rgba(255, 255, 255, 0.863);
+    
+    /* background-color: white; */
+    padding:8px 15px;
+}
+.ctnt{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%) !important;
+
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.ctnt h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px 0 !important;
+}
+.ctnt p{
+    margin-top: 35px;
+}
+.quote{
+    /* border: 2px solid red; */
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.quote h1{
+    font-size: 45px !important;
+    font-family: var(--font2) !important;
+    text-align: center;
+
+}
+.quote p{
+    text-align: right !important;
+}
+.quote hr{
+    width: 70vw;
+    color: black !important;
+    opacity: 0.2;
+}
+/* ABOUT */
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: auto;
+}
+.cds{
+    margin: 25px 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cds:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.3s linear;
+}
+.abt{
+    height: 100%;
+    padding-top: 1px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.ag a{
+    color: white !important;
+}
+.ag a:hover{
+    text-decoration: none !important;
+}
